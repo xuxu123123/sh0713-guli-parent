@@ -27,6 +27,7 @@ import java.util.List;
 @Slf4j
 @Api(tags = "讲师管理模块")
 @RestController
+@CrossOrigin
 @RequestMapping("/admin/edu/teacher")
 public class AdminTeacherController {
     @Autowired
